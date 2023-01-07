@@ -79,9 +79,9 @@ function generateTerm(start: Moment, label: string, termInfo: TermInfo) {
   for (let index = 0; index < termInfo.teachingWeekCount; index++) {
     tempStart = tempStart.clone().add(1, 'week');
     tempEnd = tempEnd.clone().add(1, 'week');
-    periods.push(generateTeachingWeek(tempStart, tempEnd, weekNo + index));
+    periods.push(generateTeachingWeek(tempStart, tempEnd, weekNo));
 
-    weekNo = weekNo + index;
+    weekNo++;
   }
 
   // Exam
@@ -89,9 +89,9 @@ function generateTerm(start: Moment, label: string, termInfo: TermInfo) {
     tempStart = tempStart.clone().add(1, 'week');
     tempEnd = tempEnd.clone().add(1, 'week');
 
-    periods.push(generateWeek(tempStart, tempEnd, weekNo + index, 'exam'));
+    periods.push(generateWeek(tempStart, tempEnd, weekNo, 'exam'));
 
-    weekNo = weekNo + index;
+    weekNo++;
   }
 
   // Break
@@ -99,9 +99,9 @@ function generateTerm(start: Moment, label: string, termInfo: TermInfo) {
     tempStart = tempStart.clone().add(1, 'week');
     tempEnd = tempEnd.clone().add(1, 'week');
 
-    periods.push(generateWeek(tempStart, tempEnd, weekNo + index, 'vacation'));
+    periods.push(generateWeek(tempStart, tempEnd, weekNo, 'vacation'));
 
-    weekNo = weekNo + index;
+    weekNo++;
   }
 
   const term: App.Term = {
