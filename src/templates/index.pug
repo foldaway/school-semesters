@@ -9,22 +9,31 @@ html(lang='en')
       font-family: sans-serif;
     }
 
+    details:hover {
+      cursor: pointer;
+    }
+
+    summary:hover {
+      background-color: #71717a;
+      color: #fafafa;
+    }
+
   body
     h1 school-semesters
     
     p This repository allows the generation of school terms.
     p Academic calendars usually reside in PDF files, which is a great visual format but not ideal for data processing. The code here does not attempt to parse PDF files, but rather tries to mimic the logic used to set school terms (e.g. 2nd Sunday of August).
 
-    section
-      h2 ICS Calendar Files
+    details(open='true')
+      summary ICS Calendar Files
 
       ul
         each val in icsFiles
           li
             a(href=val.name)= val.name
 
-    section
-      h2 JSON Files
+    details(open='true')
+      summary JSON Files
 
       ul
         each val in jsonFiles
