@@ -8,6 +8,7 @@ import NP from './uni/NP';
 import NTU from './uni/NTU';
 import NUS from './uni/NUS';
 import SMU from './uni/SMU';
+import SP from './uni/SP';
 import SUSS from './uni/SUSS';
 import SUTD from './uni/SUTD';
 
@@ -24,6 +25,7 @@ async function run() {
     SUTD: SUTD(),
     SUSS: SUSS(),
     NP: NP(),
+    SP: SP(),
   };
 
   // Ensure output directory exists
