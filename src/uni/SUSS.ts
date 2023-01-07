@@ -156,7 +156,7 @@ export default function SUSS() {
     }
   }
 
-  const uni: App.Uni = {
+  const uni: App.School = {
     name: 'Singapore University of Social Sciences',
     terms,
   };

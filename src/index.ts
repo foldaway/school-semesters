@@ -15,7 +15,7 @@ interface File {
 }
 
 async function run() {
-  const output: Record<string, App.Uni> = {
+  const output: Record<string, App.School> = {
     SMU: SMU(),
     NUS: NUS(),
     DigiPen: DigiPen(),

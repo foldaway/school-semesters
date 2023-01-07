@@ -145,7 +145,7 @@ export default function SUTD() {
     }
   }
 
-  const uni: App.Uni = {
+  const uni: App.School = {
     name: 'Singapore University of Technology and Design',
     terms,
   };

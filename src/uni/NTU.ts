@@ -129,7 +129,7 @@ export default function NTU() {
     }
   }
 
-  const uni: App.Uni = {
+  const uni: App.School = {
     name: 'Nanyang Technological University Singapore',
     terms,
   };

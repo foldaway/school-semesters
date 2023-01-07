@@ -129,7 +129,7 @@ export default function DigiPen() {
     }
   }
 
-  const uni: App.Uni = {
+  const uni: App.School = {
     name: 'DigiPen Institute of Technology Singapore',
     terms,
   };

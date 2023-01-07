@@ -147,7 +147,7 @@ export default function SMU() {
     }
   }
 
-  const uni: App.Uni = {
+  const uni: App.School = {
     name: 'Singapore Management University',
     terms,
   };

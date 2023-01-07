@@ -71,7 +71,7 @@ END:VALARM`;
 }
 
 function createEvent(
-  uni: Omit<App.Uni, 'terms'>,
+  uni: Omit<App.School, 'terms'>,
   term: App.Term,
   period: App.Period
 ): Event {
@@ -94,7 +94,7 @@ function createEvent(
 }
 
 export default function generateICal(
-  uni: Omit<App.Uni, 'terms'>,
+  uni: Omit<App.School, 'terms'>,
   term: App.Term
 ): string {
   const events = term.periods.map((period) => {

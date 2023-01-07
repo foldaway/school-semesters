@@ -14,7 +14,7 @@ declare namespace App {
     periods: Period[];
   }
 
-  interface Uni {
+  interface School {
     name: string;
     terms: Term[];
   }

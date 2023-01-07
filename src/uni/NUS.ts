@@ -139,7 +139,7 @@ export default function NUS() {
     }
   }
 
-  const uni: App.Uni = {
+  const uni: App.School = {
     name: 'National University of Singapore',
     terms,
   };
