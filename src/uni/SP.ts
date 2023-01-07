@@ -112,7 +112,7 @@ function generateTerm(start: Moment, label: string, termInfo: TermInfo) {
   return { term, end: tempEnd };
 }
 
-export default function NP() {
+export default function SP() {
   const terms: App.Term[] = [];
 
   const currentYear = moment().year();
