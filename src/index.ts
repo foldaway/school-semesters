@@ -4,6 +4,7 @@ import pug from 'pug';
 
 import generateICal from './calendar/generateICal';
 import DigiPen from './uni/DigiPen';
+import NP from './uni/NP';
 import NTU from './uni/NTU';
 import NUS from './uni/NUS';
 import SMU from './uni/SMU';
@@ -22,6 +23,7 @@ async function run() {
     NTU: NTU(),
     SUTD: SUTD(),
     SUSS: SUSS(),
+    NP: NP(),
   };
 
   // Ensure output directory exists
