@@ -12,6 +12,7 @@ import SMU from './uni/SMU';
 import SP from './uni/SP';
 import SUSS from './uni/SUSS';
 import SUTD from './uni/SUTD';
+import TP from './uni/TP';
 
 interface File {
   name: string;
@@ -28,6 +29,7 @@ async function run() {
     NP: NP(),
     SP: SP(),
     NYP: NYP(),
+    TP: TP(),
   };
 
   // Ensure output directory exists
