@@ -13,6 +13,7 @@ import SP from './uni/SP';
 import SUSS from './uni/SUSS';
 import SUTD from './uni/SUTD';
 import TP from './uni/TP';
+import TPDesign from './uni/TPDesign';
 
 interface File {
   name: string;
@@ -30,6 +31,7 @@ async function run() {
     SP: SP(),
     NYP: NYP(),
     TP: TP(),
+    TPDesign: TPDesign(),
   };
 
   // Ensure output directory exists
