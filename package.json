@@ -23,6 +23,6 @@
   "scripts": {
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
-    "build": "tsc"
+    "build": "tsc && cp -R src/templates dist/"
   }
 }

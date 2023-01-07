@@ -1,4 +1,6 @@
 import fs from 'fs';
+import path from 'path';
+import pug from 'pug';
 
 import generateICal from './calendar/generateICal';
 import DigiPen from './uni/DigiPen';
@@ -7,6 +9,10 @@ import NUS from './uni/NUS';
 import SMU from './uni/SMU';
 import SUSS from './uni/SUSS';
 import SUTD from './uni/SUTD';
+
+interface File {
+  name: string;
+}
 
 async function run() {
   const output: Record<string, App.Uni> = {
@@ -18,8 +24,20 @@ async function run() {
     SUSS: SUSS(),
   };
 
+  // Ensure output directory exists
+  try {
+    fs.mkdirSync('output');
+  } catch (e) {}
+
+  const jsonFiles: File[] = [];
+  const icsFiles: File[] = [];
+
   for (const [filename, data] of Object.entries(output)) {
     fs.writeFileSync(`output/${filename}.json`, JSON.stringify(data, null, 2));
+
+    jsonFiles.push({
+      name: `${filename}.json`,
+    });
   }
 
   for (const [filename, uni] of Object.entries(output)) {
@@ -33,8 +51,22 @@ async function run() {
       const termFileName = term.label.replace(/\//g, '-');
 
       fs.writeFileSync(`output/${filename}/${termFileName}.ics`, calendarData);
+
+      icsFiles.push({
+        name: `${filename}/${termFileName}.ics`,
+      });
     }
   }
+
+  const indexPage = pug.renderFile(
+    path.join(__dirname, 'templates/index.pug'),
+    {
+      jsonFiles,
+      icsFiles,
+    }
+  );
+
+  fs.writeFileSync('output/index.html', indexPage);
 }
 
 run()
