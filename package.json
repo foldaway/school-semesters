@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "pug": "^3.0.2",
     "typescript": "^4.3.5"
   },
