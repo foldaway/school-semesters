@@ -7,6 +7,7 @@ import DigiPen from './uni/DigiPen';
 import NP from './uni/NP';
 import NTU from './uni/NTU';
 import NUS from './uni/NUS';
+import NYP from './uni/NYP';
 import SMU from './uni/SMU';
 import SP from './uni/SP';
 import SUSS from './uni/SUSS';
@@ -26,6 +27,7 @@ async function run() {
     SUSS: SUSS(),
     NP: NP(),
     SP: SP(),
+    NYP: NYP(),
   };
 
   // Ensure output directory exists
