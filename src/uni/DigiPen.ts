@@ -1,6 +1,6 @@
 import moment, { Moment } from 'moment';
 
-import { DATE_FORMAT } from '../constants';
+import { DATE_FORMAT, YEARS_TO_GENERATE } from '../constants';
 import { Day, nthDayOfMonth } from '../util';
 
 function generateTerm(start: Moment, label: string, vacationWeekCount: number) {
@@ -100,8 +100,8 @@ export default function DigiPen() {
 
   const currentYear = moment().year();
 
-  // Generate for the next four years
-  for (let yearIndex = -1; yearIndex < 4; yearIndex++) {
+  // Generate for the next X years
+  for (let yearIndex = -1; yearIndex < YEARS_TO_GENERATE; yearIndex++) {
     const septemberMoment = moment()
       .set('year', currentYear + yearIndex)
       .set('month', 8)

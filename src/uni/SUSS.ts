@@ -1,6 +1,6 @@
 import moment, { Moment } from 'moment';
 
-import { DATE_FORMAT } from '../constants';
+import { DATE_FORMAT, YEARS_TO_GENERATE } from '../constants';
 import { Day, nthDayOfMonth } from '../util';
 
 function generateTerm(
@@ -128,8 +128,8 @@ export default function SUSS() {
 
   const currentYear = moment().year();
 
-  // Generate for the next four years
-  for (let yearIndex = -1; yearIndex < 4; yearIndex++) {
+  // Generate for the next X years
+  for (let yearIndex = -1; yearIndex < YEARS_TO_GENERATE; yearIndex++) {
     const januaryMoment = moment()
       .set('year', currentYear + yearIndex)
       .set('month', 0)
