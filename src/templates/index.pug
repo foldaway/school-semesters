@@ -39,3 +39,9 @@ html(lang='en')
         each val in jsonFiles
           li
             a(href=val.name)= val.name
+
+    p
+      | Generated&nbsp;
+      time(datetime=generatedTime.isoString)= generatedTime.displayText
+      | &nbsp;on&nbsp;
+      span #{osInfo.platform}/#{osInfo.arch}

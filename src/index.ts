@@ -1,4 +1,6 @@
 import fs from 'fs';
+import moment from 'moment';
+import * as os from 'os';
 import path from 'path';
 import pug from 'pug';
 
@@ -68,11 +70,25 @@ async function run() {
     }
   }
 
+  const now = moment();
+
+  const generatedTime = {
+    isoString: now.toISOString(true),
+    displayText: now.format('lll ZZ'),
+  };
+
+  const osInfo = {
+    platform: os.platform(),
+    arch: os.arch(),
+  };
+
   const indexPage = pug.renderFile(
     path.join(__dirname, 'templates/index.pug'),
     {
       jsonFiles,
       icsFiles,
+      generatedTime,
+      osInfo,
     }
   );
 
