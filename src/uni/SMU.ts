@@ -150,7 +150,7 @@ export default function SMU() {
 
       // Consider Term 2 Vacations cases with more than 16 weeks of break
       // Calculate by comparing start date of next academic year
-      if (termIndex + 1 > 1) {
+      if (termIndex + 1 === 2) {
         const numOfWeeksTerm2 = upcomingAcademicStart.diff(start, 'weeks');
         vacationWeekCount =
           numOfWeeksTerm2 - SMU_ACADEMIC_PERIOD_WEEKS.STUDY - 1;
