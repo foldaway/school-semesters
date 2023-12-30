@@ -1,6 +1,10 @@
 import moment, { Moment } from 'moment';
 
-import { DATE_FORMAT, YEARS_TO_GENERATE } from '../constants';
+import {
+  DATE_FORMAT,
+  SMU_ACADEMIC_PERIOD_WEEKS,
+  YEARS_TO_GENERATE,
+} from '../constants';
 import { Day, nthDayOfMonth } from '../util';
 
 function generateWeek(
@@ -117,35 +121,10 @@ function getAcademicCalendarYearStartDate(monthMoment: Moment) {
   return start;
 }
 
-function getVacationWeekCount(termNum: number) {
-  switch (termNum) {
-    case 1: {
-      return 5;
-    }
-    default: {
-      return 15;
-    }
-  }
-}
-
 export default function SMU() {
   const terms: App.Term[] = [];
-  const academicYearsStartDate: Moment[] = [];
 
   const currentYear = moment().year();
-
-  // Next: consider use case of 17th week vacation
-
-  // Generate academic school term start dates for the next X years
-  for (let yearIndex = -1; yearIndex < YEARS_TO_GENERATE; yearIndex++) {
-    const augustMoment = moment()
-      .set('year', currentYear + yearIndex)
-      .set('month', 7)
-      .set('date', 1);
-
-    const start = getAcademicCalendarYearStartDate(augustMoment);
-    academicYearsStartDate.push(start);
-  }
 
   // Generate for the next X years
   for (let yearIndex = -1; yearIndex < YEARS_TO_GENERATE; yearIndex++) {
@@ -154,7 +133,11 @@ export default function SMU() {
       .set('month', 7)
       .set('date', 1);
 
-    let start = nthDayOfMonth(augustMoment, Day.Mon, 3);
+    let start = getAcademicCalendarYearStartDate(augustMoment);
+
+    const upcomingAugustMoment = augustMoment.clone().add(1, 'year');
+    const upcomingAcademicStart =
+      getAcademicCalendarYearStartDate(upcomingAugustMoment);
 
     const yearName = `AY${start.format('YYYY')}-${start
       .clone()
@@ -163,7 +146,15 @@ export default function SMU() {
 
     // Terms
     for (let termIndex = 0; termIndex < 2; termIndex++) {
-      const vacationWeekCount = getVacationWeekCount(termIndex + 1);
+      let vacationWeekCount = SMU_ACADEMIC_PERIOD_WEEKS.VACATION_1 - 1;
+
+      // Consider Term 2 Vacations cases with more than 16 weeks of break
+      // Calculate by comparing start date of next academic year
+      if (termIndex + 1 > 1) {
+        const numOfWeeksTerm2 = upcomingAcademicStart.diff(start, 'weeks');
+        vacationWeekCount =
+          numOfWeeksTerm2 - SMU_ACADEMIC_PERIOD_WEEKS.STUDY - 1;
+      }
 
       const { term, end } = generateTerm(
         start,
