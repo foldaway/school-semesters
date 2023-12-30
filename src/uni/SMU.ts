@@ -104,12 +104,14 @@ function generateTerm(start: Moment, label: string, vacationWeekCount: number) {
 
 function getAcademicCalendarYearStartDate(monthMoment: Moment) {
   let start = nthDayOfMonth(monthMoment, Day.Mon, 3);
-
-  // ASSUMPTION: SMU academic year start on the 4th week of august
-  // if day of month is more than 20, it falls on the 3rd week instead
   const dayOfMonth = Number(start.format('D'));
+
+  /**
+   * ASSUMPTION: SMU academic year generally start on the 3rd Monday of August
+   * If the day of month > 20, it will fall on the 2nd Monday instead
+   */
   if (dayOfMonth > 20) {
-    start = nthDayOfMonth(monthMoment, Day.Mon, 4);
+    start = nthDayOfMonth(monthMoment, Day.Mon, 2);
   }
 
   return start;
