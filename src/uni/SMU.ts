@@ -102,6 +102,19 @@ function generateTerm(start: Moment, label: string, vacationWeekCount: number) {
   return { term, end: tempEnd };
 }
 
+function getAcademicCalendarYearStartDate(monthMoment: Moment) {
+  let start = nthDayOfMonth(monthMoment, Day.Mon, 3);
+
+  // ASSUMPTION: SMU academic year start on the 4th week of august
+  // if day of month is more than 20, it falls on the 3rd week instead
+  const dayOfMonth = Number(start.format('D'));
+  if (dayOfMonth > 20) {
+    start = nthDayOfMonth(monthMoment, Day.Mon, 4);
+  }
+
+  return start;
+}
+
 function getVacationWeekCount(termNum: number) {
   switch (termNum) {
     case 1: {
@@ -115,8 +128,22 @@ function getVacationWeekCount(termNum: number) {
 
 export default function SMU() {
   const terms: App.Term[] = [];
+  const academicYearsStartDate: Moment[] = [];
 
   const currentYear = moment().year();
+
+  // Next: consider use case of 17th week vacation
+
+  // Generate academic school term start dates for the next X years
+  for (let yearIndex = -1; yearIndex < YEARS_TO_GENERATE; yearIndex++) {
+    const augustMoment = moment()
+      .set('year', currentYear + yearIndex)
+      .set('month', 7)
+      .set('date', 1);
+
+    const start = getAcademicCalendarYearStartDate(augustMoment);
+    academicYearsStartDate.push(start);
+  }
 
   // Generate for the next X years
   for (let yearIndex = -1; yearIndex < YEARS_TO_GENERATE; yearIndex++) {
