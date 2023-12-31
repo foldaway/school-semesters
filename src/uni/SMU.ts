@@ -1,6 +1,10 @@
 import moment, { Moment } from 'moment';
 
-import { DATE_FORMAT, YEARS_TO_GENERATE } from '../constants';
+import {
+  DATE_FORMAT,
+  SMU_ACADEMIC_PERIOD_WEEKS,
+  YEARS_TO_GENERATE,
+} from '../constants';
 import { Day, nthDayOfMonth } from '../util';
 
 function generateWeek(
@@ -102,15 +106,19 @@ function generateTerm(start: Moment, label: string, vacationWeekCount: number) {
   return { term, end: tempEnd };
 }
 
-function getVacationWeekCount(termNum: number) {
-  switch (termNum) {
-    case 1: {
-      return 5;
-    }
-    default: {
-      return 15;
-    }
+function getAcademicCalendarYearStartDate(monthMoment: Moment) {
+  let start = nthDayOfMonth(monthMoment, Day.Mon, 3);
+  const dayOfMonth = Number(start.format('D'));
+
+  /**
+   * ASSUMPTION: SMU academic year generally start on the 3rd Monday of August
+   * If the day of month > 20, it will fall on the 2nd Monday instead
+   */
+  if (dayOfMonth > 20) {
+    start = nthDayOfMonth(monthMoment, Day.Mon, 2);
   }
+
+  return start;
 }
 
 export default function SMU() {
@@ -125,7 +133,11 @@ export default function SMU() {
       .set('month', 7)
       .set('date', 1);
 
-    let start = nthDayOfMonth(augustMoment, Day.Mon, 3);
+    let start = getAcademicCalendarYearStartDate(augustMoment);
+
+    const upcomingAugustMoment = augustMoment.clone().add(1, 'year');
+    const upcomingAcademicStart =
+      getAcademicCalendarYearStartDate(upcomingAugustMoment);
 
     const yearName = `AY${start.format('YYYY')}-${start
       .clone()
@@ -134,7 +146,15 @@ export default function SMU() {
 
     // Terms
     for (let termIndex = 0; termIndex < 2; termIndex++) {
-      const vacationWeekCount = getVacationWeekCount(termIndex + 1);
+      let vacationWeekCount = SMU_ACADEMIC_PERIOD_WEEKS.VACATION_1 - 1;
+
+      // Consider Term 2 Vacations cases with more than 16 weeks of break
+      // Calculate by comparing start date of next academic year
+      if (termIndex + 1 === 2) {
+        const numOfWeeksTerm2 = upcomingAcademicStart.diff(start, 'weeks');
+        vacationWeekCount =
+          numOfWeeksTerm2 - SMU_ACADEMIC_PERIOD_WEEKS.STUDY - 1;
+      }
 
       const { term, end } = generateTerm(
         start,
