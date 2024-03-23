@@ -1,0 +1,995 @@
+{
+  "name": "Singapore University of Technology and Design",
+  "terms": [
+    {
+      "label": "Trimester 1 AY2023",
+      "periods": [
+        {
+          "date_start": "2023-01-23",
+          "date_end": "2023-03-05",
+          "type": "class"
+        },
+        {
+          "date_start": "2023-03-05",
+          "date_end": "2023-03-13",
+          "type": "recess"
+        },
+        {
+          "date_start": "2023-03-13",
+          "date_end": "2023-04-26",
+          "type": "class"
+        },
+        {
+          "date_start": "2023-04-26",
+          "date_end": "2023-04-30",
+          "type": "exam"
+        },
+        {
+          "date_start": "2023-04-30",
+          "date_end": "2023-05-15",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 2 AY2023",
+      "periods": [
+        {
+          "date_start": "2023-05-15",
+          "date_end": "2023-06-25",
+          "type": "class"
+        },
+        {
+          "date_start": "2023-06-25",
+          "date_end": "2023-07-03",
+          "type": "recess"
+        },
+        {
+          "date_start": "2023-07-03",
+          "date_end": "2023-08-16",
+          "type": "class"
+        },
+        {
+          "date_start": "2023-08-16",
+          "date_end": "2023-08-20",
+          "type": "exam"
+        },
+        {
+          "date_start": "2023-08-20",
+          "date_end": "2024-01-01",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 3 AY2023",
+      "periods": [
+        {
+          "date_start": "2023-09-11",
+          "date_end": "2023-10-22",
+          "type": "class"
+        },
+        {
+          "date_start": "2023-10-22",
+          "date_end": "2023-10-30",
+          "type": "recess"
+        },
+        {
+          "date_start": "2023-10-30",
+          "date_end": "2023-12-13",
+          "type": "class"
+        },
+        {
+          "date_start": "2023-12-13",
+          "date_end": "2023-12-17",
+          "type": "exam"
+        },
+        {
+          "date_start": "2023-12-17",
+          "date_end": "2024-01-01",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 1 AY2024",
+      "periods": [
+        {
+          "date_start": "2024-01-22",
+          "date_end": "2024-03-03",
+          "type": "class"
+        },
+        {
+          "date_start": "2024-03-03",
+          "date_end": "2024-03-11",
+          "type": "recess"
+        },
+        {
+          "date_start": "2024-03-11",
+          "date_end": "2024-04-24",
+          "type": "class"
+        },
+        {
+          "date_start": "2024-04-24",
+          "date_end": "2024-04-28",
+          "type": "exam"
+        },
+        {
+          "date_start": "2024-04-28",
+          "date_end": "2024-05-13",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 2 AY2024",
+      "periods": [
+        {
+          "date_start": "2024-05-13",
+          "date_end": "2024-06-23",
+          "type": "class"
+        },
+        {
+          "date_start": "2024-06-23",
+          "date_end": "2024-07-01",
+          "type": "recess"
+        },
+        {
+          "date_start": "2024-07-01",
+          "date_end": "2024-08-14",
+          "type": "class"
+        },
+        {
+          "date_start": "2024-08-14",
+          "date_end": "2024-08-18",
+          "type": "exam"
+        },
+        {
+          "date_start": "2024-08-18",
+          "date_end": "2024-12-30",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 3 AY2024",
+      "periods": [
+        {
+          "date_start": "2024-09-09",
+          "date_end": "2024-10-20",
+          "type": "class"
+        },
+        {
+          "date_start": "2024-10-20",
+          "date_end": "2024-10-28",
+          "type": "recess"
+        },
+        {
+          "date_start": "2024-10-28",
+          "date_end": "2024-12-11",
+          "type": "class"
+        },
+        {
+          "date_start": "2024-12-11",
+          "date_end": "2024-12-15",
+          "type": "exam"
+        },
+        {
+          "date_start": "2024-12-15",
+          "date_end": "2024-12-30",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 1 AY2025",
+      "periods": [
+        {
+          "date_start": "2025-01-27",
+          "date_end": "2025-03-09",
+          "type": "class"
+        },
+        {
+          "date_start": "2025-03-09",
+          "date_end": "2025-03-17",
+          "type": "recess"
+        },
+        {
+          "date_start": "2025-03-17",
+          "date_end": "2025-04-30",
+          "type": "class"
+        },
+        {
+          "date_start": "2025-04-30",
+          "date_end": "2025-05-04",
+          "type": "exam"
+        },
+        {
+          "date_start": "2025-05-04",
+          "date_end": "2025-05-19",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 2 AY2025",
+      "periods": [
+        {
+          "date_start": "2025-05-19",
+          "date_end": "2025-06-29",
+          "type": "class"
+        },
+        {
+          "date_start": "2025-06-29",
+          "date_end": "2025-07-07",
+          "type": "recess"
+        },
+        {
+          "date_start": "2025-07-07",
+          "date_end": "2025-08-20",
+          "type": "class"
+        },
+        {
+          "date_start": "2025-08-20",
+          "date_end": "2025-08-24",
+          "type": "exam"
+        },
+        {
+          "date_start": "2025-08-24",
+          "date_end": "2026-01-05",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 3 AY2025",
+      "periods": [
+        {
+          "date_start": "2025-09-08",
+          "date_end": "2025-10-19",
+          "type": "class"
+        },
+        {
+          "date_start": "2025-10-19",
+          "date_end": "2025-10-27",
+          "type": "recess"
+        },
+        {
+          "date_start": "2025-10-27",
+          "date_end": "2025-12-10",
+          "type": "class"
+        },
+        {
+          "date_start": "2025-12-10",
+          "date_end": "2025-12-14",
+          "type": "exam"
+        },
+        {
+          "date_start": "2025-12-14",
+          "date_end": "2025-12-29",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 1 AY2026",
+      "periods": [
+        {
+          "date_start": "2026-01-26",
+          "date_end": "2026-03-08",
+          "type": "class"
+        },
+        {
+          "date_start": "2026-03-08",
+          "date_end": "2026-03-16",
+          "type": "recess"
+        },
+        {
+          "date_start": "2026-03-16",
+          "date_end": "2026-04-29",
+          "type": "class"
+        },
+        {
+          "date_start": "2026-04-29",
+          "date_end": "2026-05-03",
+          "type": "exam"
+        },
+        {
+          "date_start": "2026-05-03",
+          "date_end": "2026-05-18",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 2 AY2026",
+      "periods": [
+        {
+          "date_start": "2026-05-18",
+          "date_end": "2026-06-28",
+          "type": "class"
+        },
+        {
+          "date_start": "2026-06-28",
+          "date_end": "2026-07-06",
+          "type": "recess"
+        },
+        {
+          "date_start": "2026-07-06",
+          "date_end": "2026-08-19",
+          "type": "class"
+        },
+        {
+          "date_start": "2026-08-19",
+          "date_end": "2026-08-23",
+          "type": "exam"
+        },
+        {
+          "date_start": "2026-08-23",
+          "date_end": "2027-01-04",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 3 AY2026",
+      "periods": [
+        {
+          "date_start": "2026-09-14",
+          "date_end": "2026-10-25",
+          "type": "class"
+        },
+        {
+          "date_start": "2026-10-25",
+          "date_end": "2026-11-02",
+          "type": "recess"
+        },
+        {
+          "date_start": "2026-11-02",
+          "date_end": "2026-12-16",
+          "type": "class"
+        },
+        {
+          "date_start": "2026-12-16",
+          "date_end": "2026-12-20",
+          "type": "exam"
+        },
+        {
+          "date_start": "2026-12-20",
+          "date_end": "2027-01-04",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 1 AY2027",
+      "periods": [
+        {
+          "date_start": "2027-01-25",
+          "date_end": "2027-03-07",
+          "type": "class"
+        },
+        {
+          "date_start": "2027-03-07",
+          "date_end": "2027-03-15",
+          "type": "recess"
+        },
+        {
+          "date_start": "2027-03-15",
+          "date_end": "2027-04-28",
+          "type": "class"
+        },
+        {
+          "date_start": "2027-04-28",
+          "date_end": "2027-05-02",
+          "type": "exam"
+        },
+        {
+          "date_start": "2027-05-02",
+          "date_end": "2027-05-17",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 2 AY2027",
+      "periods": [
+        {
+          "date_start": "2027-05-17",
+          "date_end": "2027-06-27",
+          "type": "class"
+        },
+        {
+          "date_start": "2027-06-27",
+          "date_end": "2027-07-05",
+          "type": "recess"
+        },
+        {
+          "date_start": "2027-07-05",
+          "date_end": "2027-08-18",
+          "type": "class"
+        },
+        {
+          "date_start": "2027-08-18",
+          "date_end": "2027-08-22",
+          "type": "exam"
+        },
+        {
+          "date_start": "2027-08-22",
+          "date_end": "2028-01-03",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 3 AY2027",
+      "periods": [
+        {
+          "date_start": "2027-09-13",
+          "date_end": "2027-10-24",
+          "type": "class"
+        },
+        {
+          "date_start": "2027-10-24",
+          "date_end": "2027-11-01",
+          "type": "recess"
+        },
+        {
+          "date_start": "2027-11-01",
+          "date_end": "2027-12-15",
+          "type": "class"
+        },
+        {
+          "date_start": "2027-12-15",
+          "date_end": "2027-12-19",
+          "type": "exam"
+        },
+        {
+          "date_start": "2027-12-19",
+          "date_end": "2028-01-03",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 1 AY2028",
+      "periods": [
+        {
+          "date_start": "2028-01-24",
+          "date_end": "2028-03-05",
+          "type": "class"
+        },
+        {
+          "date_start": "2028-03-05",
+          "date_end": "2028-03-13",
+          "type": "recess"
+        },
+        {
+          "date_start": "2028-03-13",
+          "date_end": "2028-04-26",
+          "type": "class"
+        },
+        {
+          "date_start": "2028-04-26",
+          "date_end": "2028-04-30",
+          "type": "exam"
+        },
+        {
+          "date_start": "2028-04-30",
+          "date_end": "2028-05-15",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 2 AY2028",
+      "periods": [
+        {
+          "date_start": "2028-05-15",
+          "date_end": "2028-06-25",
+          "type": "class"
+        },
+        {
+          "date_start": "2028-06-25",
+          "date_end": "2028-07-03",
+          "type": "recess"
+        },
+        {
+          "date_start": "2028-07-03",
+          "date_end": "2028-08-16",
+          "type": "class"
+        },
+        {
+          "date_start": "2028-08-16",
+          "date_end": "2028-08-20",
+          "type": "exam"
+        },
+        {
+          "date_start": "2028-08-20",
+          "date_end": "2029-01-01",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 3 AY2028",
+      "periods": [
+        {
+          "date_start": "2028-09-11",
+          "date_end": "2028-10-22",
+          "type": "class"
+        },
+        {
+          "date_start": "2028-10-22",
+          "date_end": "2028-10-30",
+          "type": "recess"
+        },
+        {
+          "date_start": "2028-10-30",
+          "date_end": "2028-12-13",
+          "type": "class"
+        },
+        {
+          "date_start": "2028-12-13",
+          "date_end": "2028-12-17",
+          "type": "exam"
+        },
+        {
+          "date_start": "2028-12-17",
+          "date_end": "2029-01-01",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 1 AY2029",
+      "periods": [
+        {
+          "date_start": "2029-01-22",
+          "date_end": "2029-03-04",
+          "type": "class"
+        },
+        {
+          "date_start": "2029-03-04",
+          "date_end": "2029-03-12",
+          "type": "recess"
+        },
+        {
+          "date_start": "2029-03-12",
+          "date_end": "2029-04-25",
+          "type": "class"
+        },
+        {
+          "date_start": "2029-04-25",
+          "date_end": "2029-04-29",
+          "type": "exam"
+        },
+        {
+          "date_start": "2029-04-29",
+          "date_end": "2029-05-14",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 2 AY2029",
+      "periods": [
+        {
+          "date_start": "2029-05-14",
+          "date_end": "2029-06-24",
+          "type": "class"
+        },
+        {
+          "date_start": "2029-06-24",
+          "date_end": "2029-07-02",
+          "type": "recess"
+        },
+        {
+          "date_start": "2029-07-02",
+          "date_end": "2029-08-15",
+          "type": "class"
+        },
+        {
+          "date_start": "2029-08-15",
+          "date_end": "2029-08-19",
+          "type": "exam"
+        },
+        {
+          "date_start": "2029-08-19",
+          "date_end": "2029-12-31",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 3 AY2029",
+      "periods": [
+        {
+          "date_start": "2029-09-10",
+          "date_end": "2029-10-21",
+          "type": "class"
+        },
+        {
+          "date_start": "2029-10-21",
+          "date_end": "2029-10-29",
+          "type": "recess"
+        },
+        {
+          "date_start": "2029-10-29",
+          "date_end": "2029-12-12",
+          "type": "class"
+        },
+        {
+          "date_start": "2029-12-12",
+          "date_end": "2029-12-16",
+          "type": "exam"
+        },
+        {
+          "date_start": "2029-12-16",
+          "date_end": "2029-12-31",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 1 AY2030",
+      "periods": [
+        {
+          "date_start": "2030-01-28",
+          "date_end": "2030-03-10",
+          "type": "class"
+        },
+        {
+          "date_start": "2030-03-10",
+          "date_end": "2030-03-18",
+          "type": "recess"
+        },
+        {
+          "date_start": "2030-03-18",
+          "date_end": "2030-05-01",
+          "type": "class"
+        },
+        {
+          "date_start": "2030-05-01",
+          "date_end": "2030-05-05",
+          "type": "exam"
+        },
+        {
+          "date_start": "2030-05-05",
+          "date_end": "2030-05-20",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 2 AY2030",
+      "periods": [
+        {
+          "date_start": "2030-05-20",
+          "date_end": "2030-06-30",
+          "type": "class"
+        },
+        {
+          "date_start": "2030-06-30",
+          "date_end": "2030-07-08",
+          "type": "recess"
+        },
+        {
+          "date_start": "2030-07-08",
+          "date_end": "2030-08-21",
+          "type": "class"
+        },
+        {
+          "date_start": "2030-08-21",
+          "date_end": "2030-08-25",
+          "type": "exam"
+        },
+        {
+          "date_start": "2030-08-25",
+          "date_end": "2031-01-06",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 3 AY2030",
+      "periods": [
+        {
+          "date_start": "2030-09-09",
+          "date_end": "2030-10-20",
+          "type": "class"
+        },
+        {
+          "date_start": "2030-10-20",
+          "date_end": "2030-10-28",
+          "type": "recess"
+        },
+        {
+          "date_start": "2030-10-28",
+          "date_end": "2030-12-11",
+          "type": "class"
+        },
+        {
+          "date_start": "2030-12-11",
+          "date_end": "2030-12-15",
+          "type": "exam"
+        },
+        {
+          "date_start": "2030-12-15",
+          "date_end": "2030-12-30",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 1 AY2031",
+      "periods": [
+        {
+          "date_start": "2031-01-27",
+          "date_end": "2031-03-09",
+          "type": "class"
+        },
+        {
+          "date_start": "2031-03-09",
+          "date_end": "2031-03-17",
+          "type": "recess"
+        },
+        {
+          "date_start": "2031-03-17",
+          "date_end": "2031-04-30",
+          "type": "class"
+        },
+        {
+          "date_start": "2031-04-30",
+          "date_end": "2031-05-04",
+          "type": "exam"
+        },
+        {
+          "date_start": "2031-05-04",
+          "date_end": "2031-05-19",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 2 AY2031",
+      "periods": [
+        {
+          "date_start": "2031-05-19",
+          "date_end": "2031-06-29",
+          "type": "class"
+        },
+        {
+          "date_start": "2031-06-29",
+          "date_end": "2031-07-07",
+          "type": "recess"
+        },
+        {
+          "date_start": "2031-07-07",
+          "date_end": "2031-08-20",
+          "type": "class"
+        },
+        {
+          "date_start": "2031-08-20",
+          "date_end": "2031-08-24",
+          "type": "exam"
+        },
+        {
+          "date_start": "2031-08-24",
+          "date_end": "2032-01-05",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 3 AY2031",
+      "periods": [
+        {
+          "date_start": "2031-09-08",
+          "date_end": "2031-10-19",
+          "type": "class"
+        },
+        {
+          "date_start": "2031-10-19",
+          "date_end": "2031-10-27",
+          "type": "recess"
+        },
+        {
+          "date_start": "2031-10-27",
+          "date_end": "2031-12-10",
+          "type": "class"
+        },
+        {
+          "date_start": "2031-12-10",
+          "date_end": "2031-12-14",
+          "type": "exam"
+        },
+        {
+          "date_start": "2031-12-14",
+          "date_end": "2031-12-29",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 1 AY2032",
+      "periods": [
+        {
+          "date_start": "2032-01-26",
+          "date_end": "2032-03-07",
+          "type": "class"
+        },
+        {
+          "date_start": "2032-03-07",
+          "date_end": "2032-03-15",
+          "type": "recess"
+        },
+        {
+          "date_start": "2032-03-15",
+          "date_end": "2032-04-28",
+          "type": "class"
+        },
+        {
+          "date_start": "2032-04-28",
+          "date_end": "2032-05-02",
+          "type": "exam"
+        },
+        {
+          "date_start": "2032-05-02",
+          "date_end": "2032-05-17",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 2 AY2032",
+      "periods": [
+        {
+          "date_start": "2032-05-17",
+          "date_end": "2032-06-27",
+          "type": "class"
+        },
+        {
+          "date_start": "2032-06-27",
+          "date_end": "2032-07-05",
+          "type": "recess"
+        },
+        {
+          "date_start": "2032-07-05",
+          "date_end": "2032-08-18",
+          "type": "class"
+        },
+        {
+          "date_start": "2032-08-18",
+          "date_end": "2032-08-22",
+          "type": "exam"
+        },
+        {
+          "date_start": "2032-08-22",
+          "date_end": "2033-01-03",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 3 AY2032",
+      "periods": [
+        {
+          "date_start": "2032-09-13",
+          "date_end": "2032-10-24",
+          "type": "class"
+        },
+        {
+          "date_start": "2032-10-24",
+          "date_end": "2032-11-01",
+          "type": "recess"
+        },
+        {
+          "date_start": "2032-11-01",
+          "date_end": "2032-12-15",
+          "type": "class"
+        },
+        {
+          "date_start": "2032-12-15",
+          "date_end": "2032-12-19",
+          "type": "exam"
+        },
+        {
+          "date_start": "2032-12-19",
+          "date_end": "2033-01-03",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 1 AY2033",
+      "periods": [
+        {
+          "date_start": "2033-01-24",
+          "date_end": "2033-03-06",
+          "type": "class"
+        },
+        {
+          "date_start": "2033-03-06",
+          "date_end": "2033-03-14",
+          "type": "recess"
+        },
+        {
+          "date_start": "2033-03-14",
+          "date_end": "2033-04-27",
+          "type": "class"
+        },
+        {
+          "date_start": "2033-04-27",
+          "date_end": "2033-05-01",
+          "type": "exam"
+        },
+        {
+          "date_start": "2033-05-01",
+          "date_end": "2033-05-16",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 2 AY2033",
+      "periods": [
+        {
+          "date_start": "2033-05-16",
+          "date_end": "2033-06-26",
+          "type": "class"
+        },
+        {
+          "date_start": "2033-06-26",
+          "date_end": "2033-07-04",
+          "type": "recess"
+        },
+        {
+          "date_start": "2033-07-04",
+          "date_end": "2033-08-17",
+          "type": "class"
+        },
+        {
+          "date_start": "2033-08-17",
+          "date_end": "2033-08-21",
+          "type": "exam"
+        },
+        {
+          "date_start": "2033-08-21",
+          "date_end": "2034-01-02",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Trimester 3 AY2033",
+      "periods": [
+        {
+          "date_start": "2033-09-12",
+          "date_end": "2033-10-23",
+          "type": "class"
+        },
+        {
+          "date_start": "2033-10-23",
+          "date_end": "2033-10-31",
+          "type": "recess"
+        },
+        {
+          "date_start": "2033-10-31",
+          "date_end": "2033-12-14",
+          "type": "class"
+        },
+        {
+          "date_start": "2033-12-14",
+          "date_end": "2033-12-18",
+          "type": "exam"
+        },
+        {
+          "date_start": "2033-12-18",
+          "date_end": "2034-01-02",
+          "type": "vacation"
+        }
+      ]
+    }
+  ]
+}

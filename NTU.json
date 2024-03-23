@@ -1,0 +1,665 @@
+{
+  "name": "Nanyang Technological University Singapore",
+  "terms": [
+    {
+      "label": "Semester 1 AY2023-24",
+      "periods": [
+        {
+          "date_start": "2023-08-14",
+          "date_end": "2023-10-02",
+          "type": "class"
+        },
+        {
+          "date_start": "2023-10-02",
+          "date_end": "2023-10-09",
+          "type": "recess"
+        },
+        {
+          "date_start": "2023-10-09",
+          "date_end": "2023-11-20",
+          "type": "class"
+        },
+        {
+          "date_start": "2023-11-20",
+          "date_end": "2023-12-11",
+          "type": "exam"
+        },
+        {
+          "date_start": "2023-12-11",
+          "date_end": "2024-01-15",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 2 AY2023-24",
+      "periods": [
+        {
+          "date_start": "2024-01-15",
+          "date_end": "2024-03-04",
+          "type": "class"
+        },
+        {
+          "date_start": "2024-03-04",
+          "date_end": "2024-03-11",
+          "type": "recess"
+        },
+        {
+          "date_start": "2024-03-11",
+          "date_end": "2024-04-22",
+          "type": "class"
+        },
+        {
+          "date_start": "2024-04-22",
+          "date_end": "2024-05-13",
+          "type": "exam"
+        },
+        {
+          "date_start": "2024-05-13",
+          "date_end": "2024-08-12",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 1 AY2024-25",
+      "periods": [
+        {
+          "date_start": "2024-08-12",
+          "date_end": "2024-09-30",
+          "type": "class"
+        },
+        {
+          "date_start": "2024-09-30",
+          "date_end": "2024-10-07",
+          "type": "recess"
+        },
+        {
+          "date_start": "2024-10-07",
+          "date_end": "2024-11-18",
+          "type": "class"
+        },
+        {
+          "date_start": "2024-11-18",
+          "date_end": "2024-12-09",
+          "type": "exam"
+        },
+        {
+          "date_start": "2024-12-09",
+          "date_end": "2025-01-13",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 2 AY2024-25",
+      "periods": [
+        {
+          "date_start": "2025-01-13",
+          "date_end": "2025-03-03",
+          "type": "class"
+        },
+        {
+          "date_start": "2025-03-03",
+          "date_end": "2025-03-10",
+          "type": "recess"
+        },
+        {
+          "date_start": "2025-03-10",
+          "date_end": "2025-04-21",
+          "type": "class"
+        },
+        {
+          "date_start": "2025-04-21",
+          "date_end": "2025-05-12",
+          "type": "exam"
+        },
+        {
+          "date_start": "2025-05-12",
+          "date_end": "2025-08-11",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 1 AY2025-26",
+      "periods": [
+        {
+          "date_start": "2025-08-11",
+          "date_end": "2025-09-29",
+          "type": "class"
+        },
+        {
+          "date_start": "2025-09-29",
+          "date_end": "2025-10-06",
+          "type": "recess"
+        },
+        {
+          "date_start": "2025-10-06",
+          "date_end": "2025-11-17",
+          "type": "class"
+        },
+        {
+          "date_start": "2025-11-17",
+          "date_end": "2025-12-08",
+          "type": "exam"
+        },
+        {
+          "date_start": "2025-12-08",
+          "date_end": "2026-01-12",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 2 AY2025-26",
+      "periods": [
+        {
+          "date_start": "2026-01-12",
+          "date_end": "2026-03-02",
+          "type": "class"
+        },
+        {
+          "date_start": "2026-03-02",
+          "date_end": "2026-03-09",
+          "type": "recess"
+        },
+        {
+          "date_start": "2026-03-09",
+          "date_end": "2026-04-20",
+          "type": "class"
+        },
+        {
+          "date_start": "2026-04-20",
+          "date_end": "2026-05-11",
+          "type": "exam"
+        },
+        {
+          "date_start": "2026-05-11",
+          "date_end": "2026-08-10",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 1 AY2026-27",
+      "periods": [
+        {
+          "date_start": "2026-08-10",
+          "date_end": "2026-09-28",
+          "type": "class"
+        },
+        {
+          "date_start": "2026-09-28",
+          "date_end": "2026-10-05",
+          "type": "recess"
+        },
+        {
+          "date_start": "2026-10-05",
+          "date_end": "2026-11-16",
+          "type": "class"
+        },
+        {
+          "date_start": "2026-11-16",
+          "date_end": "2026-12-07",
+          "type": "exam"
+        },
+        {
+          "date_start": "2026-12-07",
+          "date_end": "2027-01-11",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 2 AY2026-27",
+      "periods": [
+        {
+          "date_start": "2027-01-11",
+          "date_end": "2027-03-01",
+          "type": "class"
+        },
+        {
+          "date_start": "2027-03-01",
+          "date_end": "2027-03-08",
+          "type": "recess"
+        },
+        {
+          "date_start": "2027-03-08",
+          "date_end": "2027-04-19",
+          "type": "class"
+        },
+        {
+          "date_start": "2027-04-19",
+          "date_end": "2027-05-10",
+          "type": "exam"
+        },
+        {
+          "date_start": "2027-05-10",
+          "date_end": "2027-08-09",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 1 AY2027-28",
+      "periods": [
+        {
+          "date_start": "2027-08-09",
+          "date_end": "2027-09-27",
+          "type": "class"
+        },
+        {
+          "date_start": "2027-09-27",
+          "date_end": "2027-10-04",
+          "type": "recess"
+        },
+        {
+          "date_start": "2027-10-04",
+          "date_end": "2027-11-15",
+          "type": "class"
+        },
+        {
+          "date_start": "2027-11-15",
+          "date_end": "2027-12-06",
+          "type": "exam"
+        },
+        {
+          "date_start": "2027-12-06",
+          "date_end": "2028-01-10",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 2 AY2027-28",
+      "periods": [
+        {
+          "date_start": "2028-01-10",
+          "date_end": "2028-02-28",
+          "type": "class"
+        },
+        {
+          "date_start": "2028-02-28",
+          "date_end": "2028-03-06",
+          "type": "recess"
+        },
+        {
+          "date_start": "2028-03-06",
+          "date_end": "2028-04-17",
+          "type": "class"
+        },
+        {
+          "date_start": "2028-04-17",
+          "date_end": "2028-05-08",
+          "type": "exam"
+        },
+        {
+          "date_start": "2028-05-08",
+          "date_end": "2028-08-07",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 1 AY2028-29",
+      "periods": [
+        {
+          "date_start": "2028-08-14",
+          "date_end": "2028-10-02",
+          "type": "class"
+        },
+        {
+          "date_start": "2028-10-02",
+          "date_end": "2028-10-09",
+          "type": "recess"
+        },
+        {
+          "date_start": "2028-10-09",
+          "date_end": "2028-11-20",
+          "type": "class"
+        },
+        {
+          "date_start": "2028-11-20",
+          "date_end": "2028-12-11",
+          "type": "exam"
+        },
+        {
+          "date_start": "2028-12-11",
+          "date_end": "2029-01-15",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 2 AY2028-29",
+      "periods": [
+        {
+          "date_start": "2029-01-15",
+          "date_end": "2029-03-05",
+          "type": "class"
+        },
+        {
+          "date_start": "2029-03-05",
+          "date_end": "2029-03-12",
+          "type": "recess"
+        },
+        {
+          "date_start": "2029-03-12",
+          "date_end": "2029-04-23",
+          "type": "class"
+        },
+        {
+          "date_start": "2029-04-23",
+          "date_end": "2029-05-14",
+          "type": "exam"
+        },
+        {
+          "date_start": "2029-05-14",
+          "date_end": "2029-08-13",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 1 AY2029-30",
+      "periods": [
+        {
+          "date_start": "2029-08-13",
+          "date_end": "2029-10-01",
+          "type": "class"
+        },
+        {
+          "date_start": "2029-10-01",
+          "date_end": "2029-10-08",
+          "type": "recess"
+        },
+        {
+          "date_start": "2029-10-08",
+          "date_end": "2029-11-19",
+          "type": "class"
+        },
+        {
+          "date_start": "2029-11-19",
+          "date_end": "2029-12-10",
+          "type": "exam"
+        },
+        {
+          "date_start": "2029-12-10",
+          "date_end": "2030-01-14",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 2 AY2029-30",
+      "periods": [
+        {
+          "date_start": "2030-01-14",
+          "date_end": "2030-03-04",
+          "type": "class"
+        },
+        {
+          "date_start": "2030-03-04",
+          "date_end": "2030-03-11",
+          "type": "recess"
+        },
+        {
+          "date_start": "2030-03-11",
+          "date_end": "2030-04-22",
+          "type": "class"
+        },
+        {
+          "date_start": "2030-04-22",
+          "date_end": "2030-05-13",
+          "type": "exam"
+        },
+        {
+          "date_start": "2030-05-13",
+          "date_end": "2030-08-12",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 1 AY2030-31",
+      "periods": [
+        {
+          "date_start": "2030-08-12",
+          "date_end": "2030-09-30",
+          "type": "class"
+        },
+        {
+          "date_start": "2030-09-30",
+          "date_end": "2030-10-07",
+          "type": "recess"
+        },
+        {
+          "date_start": "2030-10-07",
+          "date_end": "2030-11-18",
+          "type": "class"
+        },
+        {
+          "date_start": "2030-11-18",
+          "date_end": "2030-12-09",
+          "type": "exam"
+        },
+        {
+          "date_start": "2030-12-09",
+          "date_end": "2031-01-13",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 2 AY2030-31",
+      "periods": [
+        {
+          "date_start": "2031-01-13",
+          "date_end": "2031-03-03",
+          "type": "class"
+        },
+        {
+          "date_start": "2031-03-03",
+          "date_end": "2031-03-10",
+          "type": "recess"
+        },
+        {
+          "date_start": "2031-03-10",
+          "date_end": "2031-04-21",
+          "type": "class"
+        },
+        {
+          "date_start": "2031-04-21",
+          "date_end": "2031-05-12",
+          "type": "exam"
+        },
+        {
+          "date_start": "2031-05-12",
+          "date_end": "2031-08-11",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 1 AY2031-32",
+      "periods": [
+        {
+          "date_start": "2031-08-11",
+          "date_end": "2031-09-29",
+          "type": "class"
+        },
+        {
+          "date_start": "2031-09-29",
+          "date_end": "2031-10-06",
+          "type": "recess"
+        },
+        {
+          "date_start": "2031-10-06",
+          "date_end": "2031-11-17",
+          "type": "class"
+        },
+        {
+          "date_start": "2031-11-17",
+          "date_end": "2031-12-08",
+          "type": "exam"
+        },
+        {
+          "date_start": "2031-12-08",
+          "date_end": "2032-01-12",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 2 AY2031-32",
+      "periods": [
+        {
+          "date_start": "2032-01-12",
+          "date_end": "2032-03-01",
+          "type": "class"
+        },
+        {
+          "date_start": "2032-03-01",
+          "date_end": "2032-03-08",
+          "type": "recess"
+        },
+        {
+          "date_start": "2032-03-08",
+          "date_end": "2032-04-19",
+          "type": "class"
+        },
+        {
+          "date_start": "2032-04-19",
+          "date_end": "2032-05-10",
+          "type": "exam"
+        },
+        {
+          "date_start": "2032-05-10",
+          "date_end": "2032-08-09",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 1 AY2032-33",
+      "periods": [
+        {
+          "date_start": "2032-08-09",
+          "date_end": "2032-09-27",
+          "type": "class"
+        },
+        {
+          "date_start": "2032-09-27",
+          "date_end": "2032-10-04",
+          "type": "recess"
+        },
+        {
+          "date_start": "2032-10-04",
+          "date_end": "2032-11-15",
+          "type": "class"
+        },
+        {
+          "date_start": "2032-11-15",
+          "date_end": "2032-12-06",
+          "type": "exam"
+        },
+        {
+          "date_start": "2032-12-06",
+          "date_end": "2033-01-10",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 2 AY2032-33",
+      "periods": [
+        {
+          "date_start": "2033-01-10",
+          "date_end": "2033-02-28",
+          "type": "class"
+        },
+        {
+          "date_start": "2033-02-28",
+          "date_end": "2033-03-07",
+          "type": "recess"
+        },
+        {
+          "date_start": "2033-03-07",
+          "date_end": "2033-04-18",
+          "type": "class"
+        },
+        {
+          "date_start": "2033-04-18",
+          "date_end": "2033-05-09",
+          "type": "exam"
+        },
+        {
+          "date_start": "2033-05-09",
+          "date_end": "2033-08-08",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 1 AY2033-34",
+      "periods": [
+        {
+          "date_start": "2033-08-08",
+          "date_end": "2033-09-26",
+          "type": "class"
+        },
+        {
+          "date_start": "2033-09-26",
+          "date_end": "2033-10-03",
+          "type": "recess"
+        },
+        {
+          "date_start": "2033-10-03",
+          "date_end": "2033-11-14",
+          "type": "class"
+        },
+        {
+          "date_start": "2033-11-14",
+          "date_end": "2033-12-05",
+          "type": "exam"
+        },
+        {
+          "date_start": "2033-12-05",
+          "date_end": "2034-01-09",
+          "type": "vacation"
+        }
+      ]
+    },
+    {
+      "label": "Semester 2 AY2033-34",
+      "periods": [
+        {
+          "date_start": "2034-01-09",
+          "date_end": "2034-02-27",
+          "type": "class"
+        },
+        {
+          "date_start": "2034-02-27",
+          "date_end": "2034-03-06",
+          "type": "recess"
+        },
+        {
+          "date_start": "2034-03-06",
+          "date_end": "2034-04-17",
+          "type": "class"
+        },
+        {
+          "date_start": "2034-04-17",
+          "date_end": "2034-05-08",
+          "type": "exam"
+        },
+        {
+          "date_start": "2034-05-08",
+          "date_end": "2034-08-07",
+          "type": "vacation"
+        }
+      ]
+    }
+  ]
+}
